@@ -7,7 +7,7 @@ int my_strlen(char *s)
    while (*p)
       ++p;
 
-   size_t my_strlen(char *s)
+   size_t my_strlen(const char *s)
 }
 
 int main(void)
