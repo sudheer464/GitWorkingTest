@@ -6,8 +6,15 @@ int my_strlen(char *s)
 
    while (*p)
       ++p;
+<<<<<<< HEAD
 //
 //
+=======
+
+<<<<<<< HEAD:string.c
+   size_t my_strlen(char *s)
+=======
+>>>>>>> b26bdffd8aaea94e0e0bcea491dd2d378c1df04d
 <<<<<<< HEAD
    size_t my_strlen(char *s)
 return (p-s);
@@ -28,6 +35,7 @@ char *my_strcpy(char *t, char *s)
 =======
    size_t my_strlen(const char *s)
 >>>>>>> 4505b3ad7ee4c4bc9c6f5e58bcb4390b363e3f13
+>>>>>>> 30c5d94545c25bc012eb1e8683813651f6b0f522:src/string.c
 }
 
 int main(void)
